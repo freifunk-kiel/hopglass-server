@@ -28,8 +28,13 @@ var config = {
   },
   "port": 45123,
   "interval": {
-    "statistics": 60,
-    "nodeinfo": 500
+    "nodeinfo": 300,
+    "statistics": 30,
+    "neighbours": 30
+  },
+  "offset": {
+    "statistics": 10,
+    "neighbours": 20
   }
 }
 
@@ -87,15 +92,21 @@ module.exports = function(receiverId, configData, api) {
   collector.bind(config.port)
 
   retrieve('nodeinfo')
-  retrieve('neighbours')
-  retrieve('statistics')
-
   setInterval(function() {
     retrieve('nodeinfo')
   }, config.interval.nodeinfo * 1000)
 
-  setInterval(function() {
-    retrieve('neighbours')
+  setTimeout(function() {
     retrieve('statistics')
-  }, config.interval.statistics * 1000)
+    setInterval(function() {
+      retrieve('statistics')
+    }, config.interval.statistics * 1000)
+  }, config.offset.statistics * 1000)
+
+  setTimeout(function() {
+    retrieve('neighbours')
+    setInterval(function() {
+      retrieve('neighbours')
+    }, config.neighbours.neighbours * 1000)
+  }, config.offset.neighbours * 1000)
 }

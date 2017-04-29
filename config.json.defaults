@@ -9,8 +9,13 @@
           },
           "port": 45123,
           "interval": {
-            "statistics": 60,
-            "nodeinfo": 500
+            "nodeinfo": 300,
+            "statistics": 30,
+            "neighbours": 30
+          },
+          "offset": {
+            "statistics": 10,
+            "neighbours": 20
           }
         },
         "overlay": false
