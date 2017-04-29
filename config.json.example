@@ -4,8 +4,9 @@
       { "module": "announced",
         "config": {
           "interval": {
+            "nodeinfo": 300,
             "statistics": 60,
-            "nodeinfo": 500
+            "neighbours": 60
           }
         }
       },
