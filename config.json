@@ -30,7 +30,7 @@
     }
   },
   "provider": {
-    "offlineTime": 900
+    "offlineTime": 300
   },
   "webserver": {
     "port": 4000
