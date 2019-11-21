@@ -3,6 +3,11 @@
     "receivers": [
       { "module": "announced",
         "config": {
+          "target": {
+            "ip": "ff02::2:1001",
+            "port": 1001
+          },
+          "port": 45123,
           "timings": {
             "base": 300,
             "multipliers": {
@@ -14,7 +19,7 @@
       },
       { "module": "aliases",
         "config": {
-          "file": "/opt/hopglass/server/aliases.json"
+          "file": "./aliases.json"
         },
         "overlay": true
       }
@@ -23,7 +28,7 @@
       "br-ffki"
     ],
     "storage": {
-      "file": "/opt/hopglass/server/raw.json"
+      "file": "./raw.json"
     },
     "purge": {
       "maxAge": 90,
@@ -38,3 +43,4 @@
     "port": 4000
   }
 }
+
