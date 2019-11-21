@@ -14,7 +14,7 @@
       },
       { "module": "aliases",
         "config": {
-          "file": "./aliases.json"
+          "file": "/opt/hopglass/server/aliases.json"
         },
         "overlay": true
       }
@@ -23,14 +23,16 @@
       "br-ffki"
     ],
     "storage": {
-      "file": "./raw.json"
+      "file": "/opt/hopglass/server/raw.json"
     },
     "purge": {
-      "maxAge": 90
+      "maxAge": 90,
+      "interval": 86400
     }
   },
   "provider": {
-    "offlineTime": 300
+    "offlineTime": 900,
+    "ffapiPath": "/opt/hopglass/ffapi/"
   },
   "webserver": {
     "port": 4000
