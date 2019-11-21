@@ -20,7 +20,7 @@
       }
     ],
     "ifaces": [
-      "bat0"
+      "br-ffki"
     ],
     "storage": {
       "file": "./raw.json"
