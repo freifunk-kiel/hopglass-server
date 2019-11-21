@@ -1,7 +1,7 @@
 raw.json
 raw.json.tmp
 raw.json.purged
-aliases.json
+#aliases.json
 #config.json
 hosts
 node_modules

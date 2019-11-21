@@ -1,0 +1,66 @@
+{
+  "deadbeefff00": {
+      "nodeinfo": {
+        "hostname": "ffki_vpn0",
+        "owner": {
+          "contact": "ffki-noc(a)lists.in-kiel.de"
+        }
+      },
+  },
+  "deadbeefff01": {
+      "nodeinfo": {
+        "hostname": "ffki_vpn1",
+        "owner": {
+          "contact": "ffki-noc(a)lists.in-kiel.de"
+        }
+      },
+  },
+  "deadbeefff02": {
+      "nodeinfo": {
+        "hostname": "ffki_vpn2",
+        "owner": {
+          "contact": "ffki-noc(a)lists.in-kiel.de"
+        }
+      },
+  },
+  "deadbeefff03": {
+      "nodeinfo": {
+        "hostname": "ffki_vpn3",
+        "owner": {
+          "contact": "ffki-noc(a)lists.in-kiel.de"
+        }
+      },
+  },
+  "deadbeefff04": {
+      "nodeinfo": {
+        "hostname": "ffki_vpn4",
+        "owner": {
+          "contact": "ffki-noc(a)lists.in-kiel.de"
+        }
+      },
+  },
+  "deadbeefff05": {
+      "nodeinfo": {
+        "hostname": "ffki_vpn5",
+        "owner": {
+          "contact": "ffki-noc(a)lists.in-kiel.de"
+        }
+      },
+  },
+  "deadbeefff06": {
+      "nodeinfo": {
+        "hostname": "ffki_vpn6",
+        "owner": {
+          "contact": "ffki-noc(a)lists.in-kiel.de"
+        }
+      },
+  },
+  "deadbeefff07": {
+      "nodeinfo": {
+        "hostname": "ffki_vpn7",
+        "owner": {
+          "contact": "ffki-noc(a)lists.in-kiel.de"
+        }
+      },
+  },
+}
