@@ -1,6 +1,7 @@
 {
   "deadbeefff00": {
       "nodeinfo": {
+        "node_id": "deadbeefff00",
         "hostname": "ffki_vpn0",
         "owner": {
           "contact": "ffki-noc(a)lists.in-kiel.de"
@@ -8,24 +9,9 @@
       },
   },
   "deadbeefff01": {
-      "nodeinfo": {
+      "nodeinfo": {               
+        "node_id": "deadbeefff01",
         "hostname": "ffki_vpn1",
-        "owner": {
-          "contact": "ffki-noc(a)lists.in-kiel.de"
-        }
-      },
-  },
-  "deadbeefff02": {
-      "nodeinfo": {
-        "hostname": "ffki_vpn2",
-        "owner": {
-          "contact": "ffki-noc(a)lists.in-kiel.de"
-        }
-      },
-  },
-  "deadbeefff03": {
-      "nodeinfo": {
-        "hostname": "ffki_vpn3",
         "owner": {
           "contact": "ffki-noc(a)lists.in-kiel.de"
         }
@@ -33,31 +19,25 @@
   },
   "deadbeefff04": {
       "nodeinfo": {
+	"node_id": "deadbeefff04",
         "hostname": "ffki_vpn4",
         "owner": {
           "contact": "ffki-noc(a)lists.in-kiel.de"
         }
       },
   },
-  "deadbeefff05": {
-      "nodeinfo": {
-        "hostname": "ffki_vpn5",
-        "owner": {
-          "contact": "ffki-noc(a)lists.in-kiel.de"
-        }
-      },
-  },
   "deadbeefff06": {
-      "nodeinfo": {
+      "nodeinfo": {               
+        "node_id": "deadbeefff06",
         "hostname": "ffki_vpn6",
         "owner": {
           "contact": "ffki-noc(a)lists.in-kiel.de"
         }
       },
   },
-  "deadbeefff07": {
-      "nodeinfo": {
-        "hostname": "ffki_vpn7",
+  "ffffffffaaaa": {
+      "nodeinfo": {               
+        "hostname": "unbekannte Knoten mit neuer gluon respondd version",
         "owner": {
           "contact": "ffki-noc(a)lists.in-kiel.de"
         }
